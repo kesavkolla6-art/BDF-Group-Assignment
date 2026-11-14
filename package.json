@@ -6,7 +6,11 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "seed": "node seed.js"
+    "seed": "node seed.js",
+    "build": "npm rebuild sqlite3"
+  },
+  "engines": {
+    "node": ">=20.0.0 <23.0.0"
   },
   "keywords": ["nodejs", "express", "sqlite", "rest", "boardgames"],
   "license": "ISC",
