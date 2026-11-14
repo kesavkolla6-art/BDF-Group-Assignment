@@ -7,7 +7,8 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "seed": "node seed.js",
-    "build": "npm rebuild sqlite3"
+    "build": "npm rebuild sqlite3 --build-from-source",
+    "postinstall": "node -e \"if (process.platform === 'linux') require('child_process').execSync('npm rebuild sqlite3 --build-from-source', {stdio: 'inherit'})\""
   },
   "engines": {
     "node": ">=20.0.0 <23.0.0"
