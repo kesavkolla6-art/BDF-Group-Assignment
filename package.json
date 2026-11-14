@@ -12,8 +12,20 @@
   "engines": {
     "node": ">=20.0.0 <23.0.0"
   },
-  "keywords": ["nodejs", "express", "sqlite", "rest", "boardgames"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "rest",
+    "boardgames"
+  ],
   "license": "ISC",
-  "dependencies": { "express": "^5.3.0", "sqlite": "^5.1.1", "sqlite3": "^6.0.1" },
-  "devDependencies": { "nodemon": "^3.1.14" }
+  "dependencies": {
+    "express": "^5.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
